@@ -40,7 +40,7 @@ while (!checkPrime(num))
 
 uint64_t sumPrime(uint64_t hbound) {
 int sum = 0;
-for(int num = 2; i < hbound; num++)
+for(int num = 2; num < hbound; num++)
   {
     if(checkPrime(num))
       sum += num;
