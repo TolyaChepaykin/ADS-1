@@ -27,7 +27,7 @@ return num;
 }
 
 uint64_t nextPrime(uint64_t value) {
-int num = value++;
+int num = ++value;
 while (!checkPrime(num))
   {
     num++;
