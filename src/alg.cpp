@@ -16,7 +16,7 @@ while (c < n) {
   if (checkPrime(num)) {
     c++;
   }
-} 
+}
 return num;
 }
 uint64_t nextPrime(uint64_t value) {
