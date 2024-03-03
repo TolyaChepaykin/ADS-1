@@ -4,15 +4,12 @@
 
 
 bool checkPrime(uint64_t value) {
-if (value == 2 or value == 3)
+for (uint64_t i = 2; i*i <= value; ++i) 
 {
-	return true;
+  if (value % i == 0) 
+    return false;
 }
-else if ((value * value) % 24 == 1)
-{
-	return true;
-}
-return false;
+    return true;
 }
 
 uint64_t nPrime(uint64_t n) {
